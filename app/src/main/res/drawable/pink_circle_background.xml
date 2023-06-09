@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFC0CB" /> <!-- Color rosa -->
+    <corners android:radius="1000dp" /> <!-- Radio del círculo -->
+</shape>
