@@ -69,7 +69,7 @@ public class Registro extends AppCompatActivity {
             return;
         }
 
-        String url = "http://192.168.1.70/inventarioboutique/insertar.php";
+        String url = "http://192.168.56.1/inventarioboutique/insertar.php";
         RequestQueue queue = Volley.newRequestQueue(this);
         StringRequest resultadoPost = new StringRequest(
                 Request.Method.POST, url,

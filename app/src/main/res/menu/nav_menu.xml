@@ -18,9 +18,9 @@
             android:title="Settings"/>
 
         <item
-            android:id="@+id/nav_share"
-            android:icon="@drawable/baseline_share_24"
-            android:title="Share"/>
+            android:id="@+id/nav_user"
+            android:icon="@drawable/persona"
+            android:title="Mi perfil"/>
 
         <item
             android:id="@+id/nav_about"
@@ -32,9 +32,9 @@
 
         <menu>
             <item
-                android:id="@+id/nav_logout"
+                android:id="@+id/nav_salir"
                 android:icon="@drawable/baseline_exit_to_app_24"
-                android:title="Logout"/>
+                android:title="Salir"/>
         </menu>
 
     </item>

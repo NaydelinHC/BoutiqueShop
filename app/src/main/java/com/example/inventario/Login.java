@@ -93,7 +93,7 @@ public class Login extends AppCompatActivity {
     }
 
     private void authenticateUser(final String email, final String password, final View view) {
-        String url = "http://192.168.1.70/inventarioboutique/login.php";
+        String url = "http://192.168.56.1/inventarioboutique/login.php";
 
         RequestQueue queue = Volley.newRequestQueue(this);
 
